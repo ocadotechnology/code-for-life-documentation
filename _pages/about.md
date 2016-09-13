@@ -1,6 +1,7 @@
----
+<!-----
 layout: page
 title: About us
+summary: test
 ---
 
 ## Ocado Technology
@@ -21,4 +22,4 @@ We would also like to thank our friends who have contributed to this initiative,
 [The National Museum of Computing](http://www.tnmoc.org/), [Imperial College London](http://www3.imperial.ac.uk/), 
 [M&C Saatchi](http://www.mcsaatchi.com/), [Alvaro Ramirez](http://instantproductions.com/), [Jason Fingland](http://fingerland.co.uk/), 
 Ramneet Loyall, Sharon Harrison, Keith Avery, [Pressure Cooker Studios](http://pressurecookerstudios.co.za/), [GAL Education](http://www.gal-education.com/), 
-[Hope Education](http://www.hope-education.co.uk/).
+[Hope Education](http://www.hope-education.co.uk/).-->
