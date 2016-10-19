@@ -1,0 +1,27 @@
+{% assign lang = page.lang | prepend: "/" %}
+{% assign toc = site.data.toc.[page.lang].one-toc %}
+{% assign thispage = page.url | split: ".html" | first %}
+<div class="col-md-3"><p>&nbsp;</p>
+  <ul id="mysidebar" class="nav">
+  {% for link in toc %}
+    {% assign thisurl = link.url | prepend: lang %}
+    <li{% if thispage contains thisurl %} class="toc-level1"{% endif %}><a href="{{ lang }}{{ link.url }}">{{ link.title }}</a></li>
+    {% if link.submenu and thispage contains thisurl %}
+      <ul class="toc-L2">
+      {% for sublink in link.submenu %}
+        {% assign thisurl = sublink.url | prepend: lang %}
+        <li{% if thispage == thisurl %} class="toc-level2"{% endif %}><a href="{{ lang }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+        {% if sublink.submenu and thispage contains thisurl %}
+          <ul class="toc-L3">
+          {% for subsublink in sublink.submenu %}
+            {% assign thisurl = subsublink.url | prepend: lang %}
+            <li{% if thispage == thisurl %} class="toc-level3"{% endif %}><a href="{{ lang }}{{ subsublink.url }}">{{ subsublink.title }}</a></li>
+          {% endfor %}<!-- subsublink in sublink.submenu -->
+          </ul>
+        {% endif %} <!-- thispage == thisurl and sublink.submenu -->
+      {% endfor %} <!-- thispage == thisurl and sublink -->
+      </ul>
+    {% endif %} <!-- thispage == thisurl and submenu -->
+  {% endfor %} <!-- /for link in toc -->
+  </ul>
+</div>
