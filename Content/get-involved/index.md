@@ -15,16 +15,16 @@ Code for Life needs volunteers to:
 
 We want to make Code for Life the number one educational computing platform in the world. Think you can help?
 
-First, visit [codeforlife.education]() to get familiar with Code for Life and Rapid Router, then read this page to find out how you can start contributing to the project.
+First, visit [codeforlife.education](https://www.codeforlife.education/) to get familiar with Code for Life and Rapid Router, then read this page to find out how you can start contributing to the project.
 
 <hr>
 
 ## On this page
 
-* [Keep in touch]()
-* [Meetups]()
-* [Contribute to the code]()
-* [Learning resources]()
+* [Keep in touch](#keep-in-touch)
+* [Meetups](#meetups)
+* [Contribute to the code](#contribute-to-the-cde)
+* [Learning resources](#learning-resource)
 
 <hr>
 
@@ -42,9 +42,9 @@ Ask one of the following people to add you<!-- to the mailing list-->:
 
 | Contact | Location | Email |
 | ------- | ---- | -- |
-| Celine Boudier | Hatfield | [celine.boudier@ocado.com]() |
-| Piotr Repetowski | Krawkow | [piotr.repetowski@ocado.com]() |
-| Rafal Wawryk | Wroclaw | [rafal.warryk@ocado.com]() |
+| Celine Boudier | Hatfield | [celine.boudier@ocado.com](mailto:celine.boudier@ocado.com) |
+| Piotr Repetowski | Krawkow | [piotr.repetowski@ocado.com](mailto:piotr.repetowski@ocado.com) |
+| Rafal Wawryk | Wroclaw | [rafal.warryk@ocado.com](mailto:rafal.warryk@ocado.com) |
 
 <br>
 **Slack**
@@ -81,7 +81,7 @@ If you're coming to the meetup:
 
 1. Let everyone know whether you're staying for dinner, by responding to the Slack reminder with a tick or a cross.
 
-	The reminder is sent out on Wednesday mornings on the [#code-for-life]() Slack channel.
+	The reminder is sent out on Wednesday mornings on the [#code-for-life](https://ocado.slack.com/messages/code-for-life/) Slack channel.
 
 	![Slack reminder](/img/slack-reminder.png)
 
@@ -112,15 +112,15 @@ To get started:
 
 We use Git for software development and version control, so you'll need to install it on your computer.
 
-Follow the instructions [here]().
+Follow the instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-The [Git documentation]() is a great resource for familiarising yourself with how it works.
+The [Git documentation](https://git-scm.com/documentation) is a great resource for familiarising yourself with how it works.
 
 **2. Sign up to Github**
 
 Code for Life is an open source project. Once you have installed Git on your computer, you need to sign up to Github to access the code.
 
-Register for Github [here](). You can use your Ocado Technology email address.
+Register for Github [here](https://github.com/). You can use your Ocado Technology email address.
 
 If you already have a Github account, you can just use that.
 
@@ -128,7 +128,7 @@ If you already have a Github account, you can just use that.
 
 Once you have a Github account, you need to join the Ocado Technology group.
 
-Email [Celine Boudier](), [Mike Bryant](), or [Chris Brett](), and ask them to add you, or send them a message on Slack.
+Email [Celine Boudier](mailto:celine.boudier@ocado.com), [Mike Bryant](mailto:mike.bryant@ocado.com), or [Chris Brett](mailto:chris.brett@ocado.com), and ask them to add you, or send them a message on Slack.
 
 You should recieve an email when you have been added.
 
@@ -136,7 +136,7 @@ You also need access to the Code for Life projects you are interested in.
 
 There are three projects on Github: the **Code for Life portal**, **Rapid Router**, and **AIMMO**.
 
-Ask [Celine](), [Mike](), or [Chris]() to add you to the projects you are interested in contributing to.
+Ask [Celine](mailto:celine.boudier@ocado.com), [Mike](mailto:mike.bryant@ocado.com), or [Chris](mailto:chris.brett@ocado.com) to add you to the projects you are interested in contributing to.
 
 **4. Fork and clone the projects**
 
@@ -150,9 +150,9 @@ Once you have access to the Code for Life projects on Github, you should fork th
 
 	| Project | URL | 
 	| ------- | ---- | -- |
-	| Code for Life portal | [https://github.com/ocadotechnology/codeforlife-portal]() | 
-	| Rapid Router | [https://github.com/ocadotechnology/rapid-router]() | 
-	| AIMMO | [https://github.com/ocadotechnology/aimmo]() |
+	| Code for Life portal | [https://github.com/ocadotechnology/codeforlife-portal](https://github.com/ocadotechnology/codeforlife-portal) | 
+	| Rapid Router | [https://github.com/ocadotechnology/rapid-router](https://github.com/ocadotechnology/rapid-router) | 
+	| AIMMO | [https://github.com/ocadotechnology/aimmo](https://github.com/ocadotechnology/aimmo) |
 
 3. Click **Fork** in the top right of the screen to fork the project on your account.
 
@@ -178,12 +178,12 @@ You have cloned the project to your computer. Repeat this for any of the other p
 
 Before you start contributing to Code for Life, you should make sure you are familiar with the following technologiers:
 
-* [Django]()
-* [Python]()
-* [JavaScript]()
-* [JQuery]()
-* [HTML]()
-* [CSS]()
+* [Django](https://www.djangoproject.com/)
+* [Python](https://www.python.org/)
+* [JavaScript](http://www.w3schools.com/js/)
+* [JQuery](https://jquery.com/)
+* [HTML](http://www.w3schools.com/html/x)
+* [CSS](http://www.w3schools.com/css/)
 
 You can also visit the [Resources](../resources/) section for more useful Code for Life documents.
 
