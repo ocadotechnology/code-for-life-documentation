@@ -142,8 +142,6 @@ Ask [Celine](), [Mike](), or [Chris]() to add you to the projects you are intere
 
 Once you have access to the Code for Life projects on Github, you should fork the projects on your account, and then clone the repository using HTTPS.
 
-
-
 1. Log in to your Github account.
 
 2. Go to the project you want to work on.
