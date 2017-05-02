@@ -29,6 +29,43 @@
  * Update the foundational and global aspects of the page.
  */
 
+.toc-level1 {
+
+
+
+
+}
+
+.toc-level2 {
+
+
+
+}
+
+.toc-level2>a {
+
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.toc-level3>a {
+
+    display: inline-block;
+    padding-left: 70px;
+    
+}
+
+.toc-level3 {
+
+    font-weight: bold;
+    margin-left: -72px;
+}
+
+.toc-L2 {
+
+
+}
+
 html {
     font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
