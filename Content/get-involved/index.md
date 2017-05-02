@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Get involved
-date: 1993/04/20
+date: 2017/05/02
 ---
 <hr>
 
@@ -44,7 +44,7 @@ Ask one of the following people to add you<!-- to the mailing list-->:
 | ------- | ---- | -- |
 | Celine Boudier | Hatfield | [celine.boudier@ocado.com](mailto:celine.boudier@ocado.com) |
 | Piotr Repetowski | Krawkow | [piotr.repetowski@ocado.com](mailto:piotr.repetowski@ocado.com) |
-| Rafal Wawryk | Wroclaw | [rafal.warryk@ocado.com](mailto:rafal.warryk@ocado.com) |
+| Rafal Wawryk | Wroclaw | [rafal.wawryk@ocado.com](mailto:rafal.wawryk@ocado.com) |
 
 <br>
 **Slack**
@@ -176,7 +176,7 @@ You have cloned the project to your computer. Repeat this for any of the other p
 
 ## Learning resources
 
-Before you start contributing to Code for Life, you should make sure you are familiar with the following technologiers:
+Before you start contributing to Code for Life, you should make sure you are familiar with the following technologies:
 
 * [Django](https://www.djangoproject.com/)
 * [Python](https://www.python.org/)
