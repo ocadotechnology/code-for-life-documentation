@@ -106,7 +106,7 @@ Don't worry if you forget - a reminder is sent out on slack every Thursday morni
 
 So you're interested in contributing to Code for Life? Great!
 
-To get started: 
+To get started:
 
 **1. Install Git on your computer**
 
@@ -148,10 +148,10 @@ Once you have access to the Code for Life projects on Github, you should fork th
 
 	The project URLs are shown below:
 
-	| Project | URL | 
+	| Project | URL |
 	| ------- | ---- | -- |
-	| Code for Life portal | [https://github.com/ocadotechnology/codeforlife-portal](https://github.com/ocadotechnology/codeforlife-portal) | 
-	| Rapid Router | [https://github.com/ocadotechnology/rapid-router](https://github.com/ocadotechnology/rapid-router) | 
+	| Code for Life portal | [https://github.com/ocadotechnology/codeforlife-portal](https://github.com/ocadotechnology/codeforlife-portal) |
+	| Rapid Router | [https://github.com/ocadotechnology/rapid-router](https://github.com/ocadotechnology/rapid-router) |
 	| AIMMO | [https://github.com/ocadotechnology/aimmo](https://github.com/ocadotechnology/aimmo) |
 
 3. Click **Fork** in the top right of the screen to fork the project on your account.
@@ -166,7 +166,7 @@ Once you have access to the Code for Life projects on Github, you should fork th
 
 6. Open a terminal window on your machine, and `cd` into the directory where you want to clone the project.
 
-7. Run the following command using the SSH key you have copied: 
+7. Run the following command using the SSH key you have copied:
 
 	`git clone [SSH key]`
 
@@ -189,7 +189,7 @@ You can also visit the [Resources](../resources/) section for more useful Code f
 
 <br>
 
-##You're all set!
+## You're all set!
 
 You're ready to contribute to Code For life - thank you!
 

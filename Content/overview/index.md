@@ -3,12 +3,6 @@ layout: page
 title: What is Code for Life?
 ---
 
-Code for Life is...
-
-
-
-
-
 See the [Code for Life website]() for more information, and try out our [Rapid Router]() game.
 
 ## On this page
@@ -23,16 +17,6 @@ See the [Code for Life website]() for more information, and try out our [Rapid R
 
 
 ## The Ocado Foundation
-
-
-
-
-
-
-
-
-
-
 
 
 ## Our friends
@@ -61,7 +45,3 @@ All of us here at Code for Life would like to thank everyone who has contributed
 If you're interested in becoming a Code for Life volunteer, read the [Getting involved]() page. You can also get in touch with [Celine Boudier](), or join the [#code-for-life]() Slack channel and say hi to our current volunteers.
 
 To get further information about Code for Life, the Ocado Foundation, our partnerships and press, contact [Bree King]().
-
-
-
-
