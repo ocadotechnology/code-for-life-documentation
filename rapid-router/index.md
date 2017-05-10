@@ -1,4 +1,4 @@
----
+<!-----
 layout: page
 title: 'Rapid Router'
 ---
@@ -18,4 +18,4 @@ Go to the official [Code For Life website][c4l].
 * [Contribution guide](/rapid-router/contribute)
 
 [c4l]: https://www.codeforlife.education/
-[c4l-portal]: http://github.com/ocadotechnology/codeforlife-portal/
+[c4l-portal]: http://github.com/ocadotechnology/codeforlife-portal/-->

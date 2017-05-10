@@ -1,16 +1,11 @@
-# Dependencies
-
-# Permalinks
-permalink:        pretty
-
 # Setup
 title:            'Code for Life'
 tagline:          'Code for Life Documentation'
 description:      'Inspire the next generation of computer scientists'
-url:              http://codeforlife.education
-
-include: ['_pages']
-
-
-github:
-  rapid:          https://github.com/ocadotechnology/rapid-router
+github: [metadata]
+  kramdown:
+    input: GFM
+    hard_wrap: false
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
