@@ -5,7 +5,7 @@ layout: default
 
 <div>
 
-  <form action="/search/" method="get">
+  <form action="{{ site.github.url }}/search/" method="get">
   <label for="search-box">Search</label>
   <input type="text" id="search-box" name="query">
   <input type="submit" value="search">
@@ -19,11 +19,11 @@ layout: default
 
   window.store = {
     {% for page in site.html_pages %}
-      {% if page.dir != "/Content/Fields" and page.name != "search.html" %}
+      {% if page.dir != "{{ site.github.url }}/Content/Fields" and page.name != "search.html" %}
         "{{ page.url | slugify }}": {
           "title": "{{ page.title | xml_escape }}",
           "content": {{ page.content | strip_html | strip_newlines | jsonify }},
-          "url": "{{ page.url | xml_escape }}"
+          "url": "{{ site.github.url }}{{ page.url | xml_escape }}"
         }
         {% unless forloop.last %},{% endunless %}
       {% endif %}
@@ -31,6 +31,6 @@ layout: default
   };
 </script>
 
-<script src="/js/lunr.min.js"></script>
-<script src="/js/search.js"></script>
+<script src="{{ site.github.url }}/js/lunr.min.js"></script>
+<script src="{{ site.github.url }}/js/search.js"></script>
 </div>

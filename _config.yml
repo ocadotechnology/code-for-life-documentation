@@ -1,9 +1,8 @@
-# Setup
-title:            'Code for Life'
-tagline:          'Code for Life Documentation'
-description:      'Inspire the next generation of computer scientists'
+title: 'Code for Life'
+tagline: 'Code for Life Documentation'
+description: 'Inspire the next generation of computer scientists'
 github: [metadata]
-  kramdown:
+kramdown:
     input: GFM
     hard_wrap: false
 gems:
