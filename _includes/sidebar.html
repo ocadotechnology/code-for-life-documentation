@@ -4,7 +4,7 @@
 
 
 <div class="sidebar">
-    <a href="{{ site.github.url }}/index.html"><img src="{{ site.github.url }}/img/logo_white.png"/></a>
+    <a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/img/logo_white.png"/></a>
     <div class="container sidebar-sticky">
         <div class="sidebar-about">
 
@@ -12,15 +12,15 @@
              <ul id="mysidebar" class="nav">
   {% for link in toc %}
     {% assign thisurl = link.url %}
-    <li{% if thispage == thisurl %} class="toc-level1"{% endif %}><a href="{{ site.github.url }}{{ link.url }}">{{ link.title }}</a></li>
+    <li{% if thispage == thisurl %} class="toc-level1"{% endif %}><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
       <ul class="toc-L2">
       {% for sublink in link.submenu %}
         {% assign thisurl = sublink.url %}
-        <li{% if thispage == thisurl %}class="toc-level2"{% endif %}><a href="{{ site.github.url }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+        <li{% if thispage == thisurl %}class="toc-level2"{% endif %}><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
           <ul class="toc-L3">
           {% for subsublink in sublink.submenu %}
             {% assign thisurl = subsublink.url %}
-            <li{% if thispage == thisurl %} class="toc-level3"{% endif %}><a href="{{ site.github.url }}{{ subsublink.url }}">{{ subsublink.title }}</a></li>
+            <li{% if thispage == thisurl %} class="toc-level3"{% endif %}><a href="{{ site.baseurl }}{{ subsublink.url }}">{{ subsublink.title }}</a></li>
           {% endfor %}<!-- subsublink in sublink.submenu -->
           </ul>
       {% endfor %} <!-- thispage == thisurl and sublink -->

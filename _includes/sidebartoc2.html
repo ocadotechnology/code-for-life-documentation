@@ -5,17 +5,17 @@
   <ul id="mysidebar" class="nav">
   {% for link in toc %}
     {% assign thisurl = link.url | prepend: lang %}
-    <li{% if thispage contains thisurl %} class="toc-level1"{% endif %}><a href="{{ site.github.url }}{{ lang }}{{ link.url }}">{{ link.title }}</a></li>
+    <li{% if thispage contains thisurl %} class="toc-level1"{% endif %}><a href="{{ site.baseurl }}{{ lang }}{{ link.url }}">{{ link.title }}</a></li>
     {% if link.submenu and thispage contains thisurl %}
       <ul class="toc-L2">
       {% for sublink in link.submenu %}
         {% assign thisurl = sublink.url | prepend: lang %}
-        <li{% if thispage == thisurl %} class="toc-level2"{% endif %}><a href="{{ site.github.url }}{{ lang }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+        <li{% if thispage == thisurl %} class="toc-level2"{% endif %}><a href="{{ site.baseurl }}{{ lang }}{{ sublink.url }}">{{ sublink.title }}</a></li>
         {% if sublink.submenu and thispage contains thisurl %}
           <ul class="toc-L3">
           {% for subsublink in sublink.submenu %}
             {% assign thisurl = subsublink.url | prepend: lang %}
-            <li{% if thispage == thisurl %} class="toc-level3"{% endif %}><a href="{{ site.github.url }}{{ lang }}{{ subsublink.url }}">{{ subsublink.title }}</a></li>
+            <li{% if thispage == thisurl %} class="toc-level3"{% endif %}><a href="{{ site.baseurl }}{{ lang }}{{ subsublink.url }}">{{ subsublink.title }}</a></li>
           {% endfor %}<!-- subsublink in sublink.submenu -->
           </ul>
         {% endif %} <!-- thispage == thisurl and sublink.submenu -->

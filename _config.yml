@@ -1,6 +1,7 @@
 title: 'Code for Life'
 tagline: 'Code for Life Documentation'
 description: 'Inspire the next generation of computer scientists'
+baseurl: /code-for-life-documentation
 github: [metadata]
 kramdown:
     input: GFM
